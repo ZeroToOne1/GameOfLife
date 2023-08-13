@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="grid-container" id="gridContainer"></div>
+    <div>
+        <button onclick="startSimulation()">开始模拟</button>
+        <button onclick="stopSimulation()">停止模拟</button>
+    </div>
+    <div>
+        <select id="initialStateSelect">
+            <option value="random">随机</option>
+            <option value="glider">滑翔机</option>
+            <option value="blinker">闪烁器</option>
+            <option value="beehive">蜂巢</option>
+            <option value="boat">船</option>
+            <!-- 添加更多选项 ... -->
+        </select>
+        <button onclick="setInitialState()">设置初始状态</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
