@@ -2,17 +2,17 @@
 site entry： [GameOfLife](https://zerotoone1.github.io/GameOfLife/)
 ## introduce
 
-<p>Game of Life is a computer program designed by John Horton Conway of the University of Cambridge.</p>
+Game of Life is a computer program designed by John Horton Conway of the University of Cambridge.
 
-<p>Martin Gardner (1914-2010), an American master of fun mathematics, introduced Conway's life game to a wide range of violators outside the academic community through the magazine "Scientific American", which attracted a large number of people from all walks of life. At this time, the topic of cellular automata attracted the attention of scientists.</p>
+Martin Gardner (1914-2010), an American master of fun mathematics, introduced Conway's life game to a wide range of violators outside the academic community through the magazine "Scientific American", which attracted a large number of people from all walks of life. At this time, the topic of cellular automata attracted the attention of scientists.
 
 ## profile
 
-<p>Life games do not involve competition among players, nor can they be considered a win or loss game. They can be classified as simulation games. In fact, it is also named "Life Game" because the images it simulates and displays look similar to the birth and reproduction process of life. During the game, disorderly cells will gradually evolve into various exquisite and tangible structures; These structures often have good symmetry, and each generation changes shape. Some shapes will not change from generation to generation once locked. Sometimes, some already formed structures are destroyed due to the "invasion" of disordered cells. But shape and order often emerge from chaos.</p>
+Life games do not involve competition among players, nor can they be considered a win or loss game. They can be classified as simulation games. In fact, it is also named "Life Game" because the images it simulates and displays look similar to the birth and reproduction process of life. During the game, disorderly cells will gradually evolve into various exquisite and tangible structures; These structures often have good symmetry, and each generation changes shape. Some shapes will not change from generation to generation once locked. Sometimes, some already formed structures are destroyed due to the "invasion" of disordered cells. But shape and order often emerge from chaos.
       
 Each square can accommodate one living cell, and each living cell has only two states:
       
-<p>Live or die. Use black squares to indicate that the cell is "alive", and white spaces (white) to indicate that the cell is "dead". Or, in other words, the black part in the grid represents the distribution map of a certain "life" at a certain time. What life games want to simulate is how this distribution map will change from generation to generation over time.</p>
+Live or die. Use black squares to indicate that the cell is "alive", and white spaces (white) to indicate that the cell is "dead". Or, in other words, the black part in the grid represents the distribution map of a certain "life" at a certain time. What life games want to simulate is how this distribution map will change from generation to generation over time.
 
 ## rule
 
@@ -27,9 +27,9 @@ That is to say, the state of each cell after iteration is determined by the stat
 3. When the current cell is in a living state, when there are two or three living cells around it, the cell remains intact.
 4. When the current cell is in a living state, when there are more than three living cells around it, the cell becomes in a dead state (simulating an excessive number of life).
 
-<p>The initial cell structure can be defined as seeds, and when all seed cells are processed according to the above rules, the first generation cell diagram can be obtained. Continuing to process the current cell diagram according to the rules can result in the next generation of cell diagrams, repeating the process.</p>
+The initial cell structure can be defined as seeds, and when all seed cells are processed according to the above rules, the first generation cell diagram can be obtained. Continuing to process the current cell diagram according to the rules can result in the next generation of cell diagrams, repeating the process.
 
-<p>The above survival laws can of course be arbitrarily modified to create different 'life games'.</p>
+The above survival laws can of course be arbitrarily modified to create different 'life games'.
 
 ## display
 
