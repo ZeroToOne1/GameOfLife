@@ -94,17 +94,7 @@ function setGliderInitialState() {
         [0, 1], [1, 2], [2, 0], [2, 1], [2, 2]
     ];
 
-    // 清空当前的细胞状态
-    for (let row = 0; row < N; row++) {
-        for (let col = 0; col < N; col++) {
-            grid[row][col] = OFF;
-        }
-    }
-
-    // 设置滑翔机的细胞状态
-    for (const [row, col] of gliderCoords) {
-        grid[row][col] = ON;
-    }
+    setCustomInitialState(gliderCoords);
 }
 
 function setCustomInitialState(coords) {
@@ -119,6 +109,7 @@ function setCustomInitialState(coords) {
     for (const [row, col] of coords) {
         grid[row][col] = ON;
     }
+    
 }
 
 // 示例：闪烁器（Blinker）
